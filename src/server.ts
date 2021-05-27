@@ -5,7 +5,7 @@ import { Challenges } from './challenges'
 const app = express();
 
 app.get("/", (request, response) => {
-  return response.json({ message: "Welcome to Dont be sedentary api" });
+  return response.json({ message: "Welcome to Dont be sedentary api | Teste para o video" });
 });
 
 
